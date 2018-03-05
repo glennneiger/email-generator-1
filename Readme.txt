@@ -1,0 +1,5 @@
+This simple script draws content from an array and populates an email template. It can be used to spare editors the labor and errors of creating promotional emails for an ongoing series of events - such as tours or concerts. Some time is required to set up the process. But, once created, you can generate emails quickly and accurately.
+
+Steps: (1) Add or unhide the "array" columns from the spreadsheet. (2) Copy/paste data into text editor such as Sublime. (3) Use Find/Replace to remove extra spaces (this takes a few minutes). (4) Paste the array into the site.js file. (5) In the index.html file, edit the "body id" to create the desired email. (6) In Chrome, File > Save Page As > Format: Webpage, HTML Only. (7) Copy/paste that code into the editor of a bulk mailing system such as Mail Chimp. Check that your images are online somewhere. Probably, remove the <script> tag at the bottom of the index.html file. (8) Send!
+
+Important Note About Step #6: Use Chrome. As of this writing, Safari and Firefox do not display "textContent" in the page source.
